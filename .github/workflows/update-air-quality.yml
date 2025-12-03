@@ -1,6 +1,3 @@
-name: Actualizar informe de calidad del aire
-
-
 on:
   push:
     branches:
