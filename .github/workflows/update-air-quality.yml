@@ -1,0 +1,59 @@
+name: Actualizar informe de calidad del aire
+
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 6 * * *"  # Todos los días a las 06:00 UTC
+  workflow_dispatch: {}
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+
+      - name: Ejecutar script de datos (OpenAQ v3)
+        env:
+          OPENAQ_API_KEY: ${{ secrets.OPENAQ_API_KEY }}
+        run: python script.py
+
+
+      - name: Generar README
+        run: python generate_readme.py
+
+
+      - name: Configurar usuario de git (bot)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+
+      - name: Commitear cambios (si los hay)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add data.json README.md
+            git commit -m "Actualización automática del informe de calidad del aire"
+            git push
+          else
+            echo "No hay cambios que commitear."
+          fi
