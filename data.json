@@ -1,18 +1,18 @@
 {
-  "fecha_generacion_utc": "2025-12-03T12:25:51.409818",
+  "fecha_generacion_utc": "2025-12-04T06:28:50.909148",
   "parametro": "PM2.5",
   "total_medidas": 10,
   "medidas": [
     {
-      "datetime_utc": "2025-12-03T11:00:00Z",
-      "value": 9.0,
+      "datetime_utc": "2025-12-04T05:00:00Z",
+      "value": 5.0,
       "latitude": 35.21815,
       "longitude": 128.57425,
       "sensors_id": 8539597,
       "locations_id": 2622686
     },
     {
-      "datetime_utc": "2025-12-03T11:00:00Z",
+      "datetime_utc": "2025-12-04T05:00:00Z",
       "value": -1.0,
       "latitude": 54.88361359025449,
       "longitude": 23.83583450024486,
@@ -44,8 +44,8 @@
       "locations_id": 2146563
     },
     {
-      "datetime_utc": "2025-12-03T11:00:00Z",
-      "value": 7.8,
+      "datetime_utc": "2025-12-04T05:00:00Z",
+      "value": 8.1,
       "latitude": 38.59246,
       "longitude": -82.80677,
       "sensors_id": 6236505,
@@ -68,16 +68,16 @@
       "locations_id": 2953756
     },
     {
-      "datetime_utc": "2025-12-03T11:00:00Z",
-      "value": 1.01,
+      "datetime_utc": "2025-12-04T05:00:00Z",
+      "value": 0.51,
       "latitude": -38.32676,
       "longitude": 146.3261,
       "sensors_id": 9969693,
       "locations_id": 10819
     },
     {
-      "datetime_utc": "2025-12-03T11:00:00Z",
-      "value": 19.0,
+      "datetime_utc": "2025-12-04T05:00:00Z",
+      "value": 10.0,
       "latitude": 38.05043,
       "longitude": -122.15454,
       "sensors_id": 9963443,
