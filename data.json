@@ -1,5 +1,5 @@
 {
-  "fecha_generacion_utc": "2026-09-28T12:51:36.294026",
+  "fecha_generacion_utc": "2026-09-29T12:05:27.851782",
   "parametro": "PM2.5",
   "total_medidas": 10,
   "medidas": [
@@ -36,8 +36,8 @@
       "locations_id": 7282
     },
     {
-      "datetime_utc": "2026-09-27T11:00:00Z",
-      "value": 6.36,
+      "datetime_utc": "2026-09-28T17:00:00Z",
+      "value": 2.0,
       "latitude": 54.88361359025449,
       "longitude": 23.83583450024486,
       "sensors_id": 23735,
@@ -76,8 +76,8 @@
       "locations_id": 6212143
     },
     {
-      "datetime_utc": "2026-09-28T12:00:00Z",
-      "value": 2.1,
+      "datetime_utc": "2026-09-29T11:00:00Z",
+      "value": 0.0,
       "latitude": 47.834999,
       "longitude": -122.251261,
       "sensors_id": 17131827,
