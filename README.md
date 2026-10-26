@@ -4,7 +4,7 @@ Este informe se genera automáticamente usando **Python**, **OpenAQ v3** y **Git
 
 ## Última actualización
 
-- Fecha de generación (UTC): `2026-10-25T10:40:33.287338`
+- Fecha de generación (UTC): `2026-10-26T12:13:24.905580`
 - Parámetro: `PM2.5`
 - Número de medidas obtenidas: `10`
 
